@@ -1,8 +1,10 @@
-annotated-types==0.7.0
-asgiref==3.11.1
-Django==6.0.2
-pydantic==2.12.5
-pydantic_core==2.41.5
+asgiref==3.11.0
+certifi==2024.7.4
+distlib==0.3.8
+Django==6.0.1
+filelock==3.16.0
+pipenv==2024.0.1
+platformdirs==4.3.2
+setuptools==74.1.2
 sqlparse==0.5.5
-typing-inspection==0.4.2
-typing_extensions==4.15.0
+virtualenv==20.26.4
