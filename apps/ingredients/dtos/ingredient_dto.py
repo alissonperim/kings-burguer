@@ -23,15 +23,13 @@ class IngredientDTO:
         return self(
             id=ingredient.id,
             name=ingredient.name,
-            purchase_price=ingredient.purchase_price,
+            package_cost=ingredient.package_cost,
             purchase_unity=ingredient.purchase_unity,
-            usage_quantity=ingredient.usage_quantity,
             code=ingredient.code,
             barcode=ingredient.barcode,
             stock=ingredient.stock,
             margin_seller=ingredient.margin_seller,
             purchase_quantity=ingredient.purchase_quantity,
-            cost_price=ingredient.cost_price,
             created_at=ingredient.created_at,
             updated_at=ingredient.updated_at,
             deleted_at=ingredient.deleted_at

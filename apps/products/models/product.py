@@ -9,6 +9,7 @@ class Product(BaseModel):
   cost_price: Decimal = models.DecimalField(max_digits=8, decimal_places=2, default=None)
   sale_price: Decimal = models.DecimalField(max_digits=8, decimal_places=2, default=None)
   ingredients: list[Ingredient] = models.ForeignKey(Ingredient)
+  ingredient_usage_quantity: Decimal = models.DecimalField(max_digits=8, decimal_places=2)
   margin_seller: Decimal = models.DecimalField(max_digits=5, decimal_places=3, default=None)
   description: str = models.CharField(max_length=240)
 
